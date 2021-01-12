@@ -6,4 +6,4 @@ A **D**eep **A**utoencoder-**B**ased Anoamly Detection Method for Discrete Event
 
 # Description
 
-<p> This is a placeholder for the project. I will update the project and this description soon. </p>
+<p> This is a placeholder for the project. I will update this project soon. </p>
