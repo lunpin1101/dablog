@@ -3,7 +3,7 @@
 import argparse, csv, gzip, json, os
 
 def main ():
-    parser = argparse.ArgumentParser (description='NANL data splitter')
+    parser = argparse.ArgumentParser (description='UNSW-NB15 data splitter')
     parser.add_argument ('files', help='filename', nargs='+')
     parser.add_argument ('-d', '--dir', help='destination directory', default='data')
     parser.add_argument ('--head', help='head only first N lines', type=int, default=-1)
