@@ -2,7 +2,7 @@
 
 ***DabLog***: A ***D***eep ***A***utoencoder-***B***ased Anoamly Detection Method for Discrete Event ***Log***s
 
-Lun-Pin Yuan, Peng Liu, and Sencun Zhu. 2021. Recompose Event Sequencesvs. Predict Next Events: A Novel Anomaly Detection Approach for DiscreteEvent Logs. In Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security (ASIA CCS ’21), June 7–11, 2021, Virtual Event,Hong Kong.ACM, New York, NY, USA, 13 pages. 
+Lun-Pin Yuan, Peng Liu, and Sencun Zhu. 2021. Recompose Event Sequencesvs. Predict Next Events: A Novel Anomaly Detection Approach for DiscreteEvent Logs. In Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security (ASIA CCS ’21), June 7–11, 2021, Virtual Event,Hong Kong. ACM, New York, NY, USA, 13 pages. 
 
 [https://doi.org/10.1145/3433210.3453098](https://doi.org/10.1145/3433210.3453098) 
 
