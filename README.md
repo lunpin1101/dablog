@@ -18,7 +18,7 @@ This project was developed on ***BIZON G3000 – 2-4 GPU Deep Learning Workstati
 | ------------- | ------------------------------------------------------------ |
 | Processor     | Skylake X; 8-Core 3.80 GHz Intel Core i7-9800X               |
 | Memory        | DDR4 3000MHz 64 GB (4 x 16 GB)                               |
-| Graphics Card | 2 x NVIDIA RTX 2080 8 GB with NVLink and 1 x NVLink Bridge   |
+| Graphics Card | 2 x NVIDIA RTX 2080 8 GB with 1 x NVLink Bridge              |
 | System        | Ubuntu 18.04 Bionic (not using Bizon's preinstalled package) |
 | Environment   | Python 3.7.4, Tensorflow 2.0.0, and Anaconda 4.7.12          |
 
@@ -103,6 +103,6 @@ python3 plot/plot-sosp2009.py
 | SOSP 2009 <br> (304 keys) | <img src="images/sosp2009_comp_k304.png" width="256"> | <img src="images/sosp2009_dablog_k304.png" width="256"> | <img src="images/sosp2009_pred_k304.png" width="256"> |
 
 
-# Misc Note
+# Misc 
 
 There are a few un-used code and un-used parameters.  They are our undergoing work.  I would suggest not to alter them, but feel free to explore.  Happy hacking!
