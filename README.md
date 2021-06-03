@@ -24,7 +24,7 @@ This project was developed on ***BIZON G3000 – 2-4 GPU Deep Learning Workstati
 
 # Datasets
 
-The ***data*** folder provides a few preprocessed data examples.  For full dataset, please find them from the links below.  
+The ***data*** folder provides a few preprocessed data examples.  For full datasets, please find them from the links below.  
 
 | Name      | Content | Link |
 | --------- | ------- | ---- |
@@ -42,7 +42,7 @@ python3 unswnb15/split.py UNSW-NB15_1.csv UNSW-NB15_2.csv UNSW-NB15_3.csv UNSW-N
 
 ## UNSW-NB15
 
-Please add flags if needed.  For example, to specificy input directory, use *-i /data/unswnb15/data*.  Please use *-h* for flag options.
+Please use flags if needed.  For example, to specificy input directory, use *-i /data/unswnb15/data*.  Please use *-h* for flag options.
 
 ```
 python3 exp-unswnb15.py ad -o out/2020-10-21_deeplog_k706_ip1hr -m deeplog --window-size 60 --key-divisor 100 ; \
@@ -61,7 +61,7 @@ python3 exp-unswnb15.py ad -o out/2020-10-21_dablog_k366_ipqhr -m dablog --windo
 
 ## SOSP 2009
 
-Please add flags if needed.  For example, to specificy input directory, use *-i /data/sosp2009/data*.  Please use *-h* for flag options.
+Please use flags if needed.  For example, to specificy input directory, use *-i /data/sosp2009/data*.  Please use *-h* for flag options.
 
 ```
 python3 exp-sosp2009.py seqad -l label.txt --use-gpu 1 --test-normal 200000 -o exp/2020-02-27_1 -m sdlog --no-mimick ;\
@@ -88,11 +88,11 @@ python3 exp-sosp2009.py seqad -l label.txt --use-gpu 0 --logkeys 0 --test-normal
 
 ## Plot and Analysis
 
-The ***paper*** folder provides scripts we used when writing our paper.  The ***paper*** includes plotter scripts.  Please modify the directory paths before use.  
+The ***paper*** folder provides the scripts we used when writing our paper.  The ***paper*** folder includes plotter scripts.  Please modify the directory paths before use.  
 
 ```
-python3 plot/plot-unswnb15.py
-python3 plot/plot-sosp2009.py
+python3 paper/plot-unswnb15.py
+python3 paper/plot-sosp2009.py
 ```
 
 | Dataset   | Comparison | DabLog | Baseline Predictor |
